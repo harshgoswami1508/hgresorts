@@ -1,0 +1,27 @@
+<div class="contact-page-form">
+
+[response]
+
+<div class="row">
+  <div class="form-group col-md-6">
+    [text* your-name class:form-control placeholder "Your Name"]
+  </div>
+  <div class="form-group col-md-6">
+    [text* your-phone class:form-control placeholder "Your Phone"]
+  </div>
+  <div class="form-group col-md-6">
+    [email* your-email class:form-control placeholder "Your Email"]
+  </div>
+  <div class="form-group col-md-6">
+    [text your-subject class:form-control placeholder "Subject"]
+  </div>
+</div>
+
+<div class="form-group">
+[textarea* your-message class:form-control placeholder "Your Message"]
+</div>
+<div class="form-group">
+[checkbox* terms "Accept Terms and Conditions"]
+</div>
+[submit class:button class:button class:btn-lg class:mt10 class:mt30 "Send Your Message Now"]
+</div>

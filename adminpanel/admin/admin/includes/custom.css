@@ -1,0 +1,22 @@
+    /* Make the body and HTML take up the full viewport */
+    body, html {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+    }
+
+    /* Center the form vertically and horizontally */
+    .container {
+      height: 100%;
+      display: flex;
+      /* align-items: center;
+      justify-content: center; */
+    }
+
+    /* Style the form as needed */
+    .custom-form {
+      max-width: 100%;
+      width: 100%;
+      padding: 20px;
+      border-radius: 5px;
+    }
